@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="ChinesePY.js"></script>
+  </head>
+  <body style="font-size:12px">
+    <form>
+      �������ݣ� <input type="text" onkeyup="pym.innerHTML = Pinyin.GetJP(this.value);allpym.innerHTML=Pinyin.GetQP(this.value);
+����������������staffpym.innerHTML=Pinyin.GetHP(this.value);" /> <br /><br />
+      ƴ �� �룺 <span id="pym"></span><br /><br />
+      ƴ��ȫ�룺 <span id="allpym"></span><br /><br />
+      �� ƴ �룺 <span id="staffpym"></span>
+    </form>
+  </body>
+  <script>
+   var arr = ['aaa','aaa','aaa','aaa','cccc','cccc','bbbb']
+   console.log(arr[].indexOf('aaa'));
+  </script>
+</html>
